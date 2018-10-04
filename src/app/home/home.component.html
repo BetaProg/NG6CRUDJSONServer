@@ -1,0 +1,20 @@
+<table class="product-table  table-hover table-striped">
+  <tr>
+    <td colspan="4">
+      <h4>Patients</h4> <a routerLink='/product' class="btn btn-success pull-right cstm-add-product"><i class="far fa-plus-square"></i></a>
+    </td>
+  </tr>
+  <tr>
+    <th>S.No</th>
+    <th>Name</th>
+    <th>Phone</th>
+    <th>Edit</th>
+  </tr>
+  <tr *ngFor="let product of products  | paginate: { itemsPerPage: 6, currentPage: p }">
+    <td>{{product.id}}</td>
+    <td>{{product.name}}</td>
+    <td>{{product.number}}</td>
+    <td><a class="btn btn-default" [routerLink]="['/updateProduct',product.id]" title="Edit"><i class="far fa-edit"></i></a> <a class="btn btn-danger" (click)="deleteProduct(product.id)" title="Delete"><i class="far fa-trash-alt"></i></a></td>
+  </tr>
+</table>
+<pagination-controls class="cstm-pagination" (pageChange)="p = $event"></pagination-controls>

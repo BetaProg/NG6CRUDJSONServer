@@ -1,0 +1,25 @@
+.product-table{
+    /* margin: auto; */
+    width: 60%;
+    text-align: center;
+}
+.product-table td,.product-table th{
+    padding: 5px;
+}
+.product-table h4{
+    text-align: left;
+    float:left;
+}
+.cstm-add-product{
+    float:right;
+}
+.fa-trash-alt{
+    color: red;
+}
+tr .btn-danger{
+    border-color:transparent;
+    background-color: transparent;
+}
+.cstm-pagination{
+    margin-left:6%;
+}
