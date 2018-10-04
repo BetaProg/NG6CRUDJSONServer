@@ -13,6 +13,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
 import { UpdateProductComponent } from './update-product/update-product.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { UpdateProductComponent } from './update-product/update-product.componen
     AppComponent,
     HomeComponent,
     ProductsComponent,
-    UpdateProductComponent
+    UpdateProductComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,9 @@ import { UpdateProductComponent } from './update-product/update-product.componen
     FormsModule,
     NgxPaginationModule,
     RouterModule.forRoot([
-      {path:"", component:HomeComponent},
+      {path:"", component:LoginComponent},
+      {path:"login", component:LoginComponent},
+      {path:"home", component:HomeComponent},
       {path:"product", component:ProductsComponent},
       {path:"updateProduct/:id", component:UpdateProductComponent}
     ])

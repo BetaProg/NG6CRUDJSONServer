@@ -26,14 +26,14 @@ export class UpdateProductComponent implements OnInit {
     const url=`${"http://localhost:3000/products"}/${this.id}`;
     this.http.put(url,JSON.stringify(this.productObj),{headers:this.headers}).toPromise()
     .then(()=>{
-      this.router.navigate(['/']);
+      this.router.navigate(['/home']);
     });
   }
 
   ngOnInit() {
     this.route.params.subscribe(params=>{
       this.id=+params['id'];
-      console.log(this.id);
+      // console.log(this.id);
     })
 
     this.http.get("http://localhost:3000/products").subscribe(
@@ -42,7 +42,7 @@ export class UpdateProductComponent implements OnInit {
         for(var i=0;i<this.products.length;i++){
           if(parseInt(this.products[i].id)===this.id){
             this.data=this.products[i];
-            console.log(this.data);
+            // console.log(this.data);
             break;
           }
         }

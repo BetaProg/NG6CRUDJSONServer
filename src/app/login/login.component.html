@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	</head>
+	<body>
+		<div class="login-body-content">
+			<div class="login-form-content">
+				<form>
+					<div class="hq-logo-content">
+						<!-- <img class="hq-login-logo" src="images/logo-hq-solo.png" > -->
+						<h5 class="hq-title">Sign in</h5>
+					</div>
+				  <div class="form-group username-div">
+					<label for="hq-login-username">Username</label>
+					<input type="text" class="form-control" id="hq-login-username" placeholder="admin" [(ngModel)]="username" name="username" required>
+					<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+				  </div>
+				  <div class="form-group password-div">
+					<label for="hq-login-password">Password</label>
+					<input type="password" class="form-control" id="hq-login-password" placeholder="admin" [(ngModel)]="password"type="password" name="password" required>
+				  </div>
+				  <div class="form-group form-check checkbox-div">
+					<input type="checkbox" class="form-check-input" id="hq-login-checkbox">
+					<label class="form-check-label" for="hq-login-checkbox">I agree to terms & conditions</label>
+				  </div>
+				  <button type="submit" id="hq-login-submit" (click)="login()" class="btn btn-primary">Sign In</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
