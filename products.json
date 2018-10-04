@@ -1,19 +1,144 @@
 {
-  "posts": [
+  "products": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "John Doe",
+      "number": "9898989898",
+      "id": 1
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "Michael Clarke",
+      "number": "9898989897"
+    },
+    {
+      "id": 3,
+      "name": "John Doe",
+      "number": "9898989896"
+    },
+    {
+      "id": 4,
+      "name": "Michael Clarke",
+      "number": "9898989895"
+    },
+    {
+      "id": 5,
+      "name": "John Doe",
+      "number": "9898989894"
+    },
+    {
+      "id": 6,
+      "name": "Michael Clarke",
+      "number": "9898989893"
+    },
+    {
+      "id": 7,
+      "name": "John Doe",
+      "number": "9898989892"
+    },
+    {
+      "id": 8,
+      "name": "Michael Clarke",
+      "number": "9898989891"
+    },
+    {
+      "id": 9,
+      "name": "John Doe",
+      "number": "9898989898"
+    },
+    {
+      "id": 10,
+      "name": "Michael Clarke",
+      "number": "9898989897"
+    },
+    {
+      "id": 11,
+      "name": "John Doe",
+      "number": "9898989896"
+    },
+    {
+      "id": 12,
+      "name": "Michael Clarke",
+      "number": "9898989895"
+    },
+    {
+      "id": 13,
+      "name": "John Doe",
+      "number": "9898989894"
+    },
+    {
+      "id": 14,
+      "name": "Michael Clarke",
+      "number": "9898989893"
+    },
+    {
+      "id": 15,
+      "name": "John Doe",
+      "number": "9898989892"
+    },
+    {
+      "id": 16,
+      "name": "Michael Clarke",
+      "number": "9898989891"
+    },
+    {
+      "id": 17,
+      "name": "John Doe",
+      "number": "9898989898"
+    },
+    {
+      "id": 18,
+      "name": "Michael Clarke",
+      "number": "9898989897"
+    },
+    {
+      "id": 19,
+      "name": "John Doe",
+      "number": "9898989896"
+    },
+    {
+      "id": 20,
+      "name": "Michael Clarke",
+      "number": "9898989895"
+    },
+    {
+      "id": 21,
+      "name": "John Doe",
+      "number": "9898989894"
+    },
+    {
+      "id": 22,
+      "name": "Michael Clarke",
+      "number": "9898989893"
+    },
+    {
+      "id": 23,
+      "name": "John Doe",
+      "number": "9898989892"
+    },
+    {
+      "id": 24,
+      "name": "Michael Clarke",
+      "number": "9898989891"
+    },
+    {
+      "name": "Ricky Ponting",
+      "number": "9889898898",
+      "id": 25
+    },
+    {
+      "name": "Adam Gilchrist",
+      "number": "9877574747",
+      "id": 26
+    },
+    {
+      "name": "Andrew Symonds",
+      "number": "9485848584",
+      "id": 27
+    },
+    {
+      "name": "Mitchel Johnson",
+      "number": "9873646358",
+      "id": 28
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
